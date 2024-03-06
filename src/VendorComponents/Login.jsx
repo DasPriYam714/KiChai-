@@ -10,19 +10,21 @@ const Login = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Replace this with your actual login logic (e.g., display a success/error message)
     console.log('username:', username);
     console.log('password:', password);
   };
   return (
     <div class="flex flex-row mx-1">
+        {/* picture part start here */}
         <div>
         <img
-          src="./public/login page pic 2.png" // Replace with your image path
+          src="./public/login page pic 2.png" 
           alt="Login page image"
           className="object-cover w-950 h-1080  mb-6 padding: 10px;"
         />
         </div>
+
+        {/* Form part start here */}
         <div className="bg-white rounded-lg shadow-md px-10 py-8">
             <div>
                 <img src="./public/logo.png" alt="" />
